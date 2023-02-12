@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+#welcome-box{
+    color: #353535;
+    background-color: #bcb8b1;
+    border-radius: 3%;
+    margin: 2% 10% 3% 10%;
+    text-align: justify;
+    font-size: 120%;
+    padding: 2%;
+}
+#panel-box{
+    color: #353535;
+    background-color: #bcb8b1;
+    border-radius: 3%;
+    text-align: justify;
+    font-size: 120%;
+    margin-right: 4%;
+    padding: 2%;
+}
+.ac-content{
+    background-color: #353535;
+    color: #bcb8b1;
+    font-size: 120%;
+    text-align: center;
+}
+.ac-header li{
+    display: inline;
+    padding-left:2%;
+    padding-right:1%;
+    margin-bottom: 5%;
+}
+.ac-header li:hover,
+.ac-header li:active{
+    color: #ddd;
+}
+.ac-mision-vision li{
+    display: inline-block;
+
+}
+.subtitles{
+    color: #353535;
+    font-size: 130;
+}
+.works-box{
+    background-color: #f4f1de;
+    margin: 2% 10% 3% 10%
+}
+.copy-right-contacts{
+    background-color: #212529;
+}
+#contact{
+    color: #f4f1de;
+    margin-left: 10%;
+}
+.contenido-footer{
+    color: aliceblue;
+    text-align: justify;
+    margin: 2% 10% 2% 10%;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section {
+    padding: 80px 0;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+.footer-nav li,
+.footer-nav li a,
+.social-links li,
+.social-links li a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: 0.2s;
+}
+footer {
+    background-color: rgb(31, 29, 29);
+    padding: 30px;
+    font-size: 80%;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.bi-facebook {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.bi-facebook:hover {
+    color: #3b5998;
+}
+
+.bi-whatsapp:hover {
+    color: #00ed33;
+}
+
+.bi-youtube:hover {
+    color: #dd4b39;
+}
+
+.bi-instagram:hover {
+    color: #517fa4;
+}
+
+.bi-tiktok:hover{
+    color: #ec0955;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
